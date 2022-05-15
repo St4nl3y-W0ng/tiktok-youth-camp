@@ -1,0 +1,98 @@
+/* GENERAL CSS THEMES */
+body {
+    background-color: #F1EDD1;
+    margin: 0px;
+}
+h4 {
+  text-align: center;
+}
+img.animated-gif-header{
+    width: 90px;
+    height: 80px;
+}
+.hangmantitle {
+    font-size: 100px;
+    font-weight: 200;
+    color: brown;
+    margin: 0px ;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.top-section {
+    background-color: #eae0a0;
+    color: black;
+
+}
+.bottom-section {
+    background-color: #f1edd1;
+}
+
+/* HOME PAGE */
+.user-info-card {
+  text-align: center;
+  margin-top: 8%;
+}
+.card {
+  background-color: #fed8b1;
+  margin: 5%;
+  border-radius: 7%;
+}
+.btn {
+  margin-top: 4%;
+}
+.form-group {
+  padding-left: 2%;
+}
+
+/* THEMES PAGE */
+.choose-a-theme {
+    font-size: 50px;
+    text-align: center;
+    color: #A86E4C;
+    font-family: fantasy;
+    margin: 8px 3px 0px 3px;
+    padding:8px 3px 0px 3px;
+}
+hr {
+    position: relative;
+    top: 0px;
+    border: none;
+    height: 5px;
+    background: #AA9F6F;
+    margin-bottom: 50px;
+}
+.btn-success {
+  margin: 3%;
+  border-radius: 10%;
+}
+
+/* GAME PAGE */
+.user-interact {
+  text-align: center;
+  border-left: solid;
+}
+.guessed-word {
+  margin-top: 3%;
+}
+.guessed-char {
+  display: inline;
+  font-size: 50px;
+}
+.keyboard {
+  margin-top: 10%;
+}
+.btn-circle.btn-xl {
+      width: 65px;
+      height: 65px;
+      border-radius: 65px;
+      margin: 1%;
+      font-size: 20px;
+      text-align: center;
+    }
+#return1 {
+    color: red;
+}
+#return2 {
+    color: red;
+}

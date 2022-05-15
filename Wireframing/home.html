@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+</head>
+<body>
+    <section class="top-section" id="title">
+        <div class="big-heading">
+            <h1 class="hangmantitle"> HANGMAN <img class="animated-gif-header" src="https://c.tenor.com/F5NRBCYyX9IAAAAM/pepe-the-frog-hang-man.gif" alt="img not shown"> </h1>
+        </div>
+    </section>
+
+    <section class="bottom-section" id="features">
+      <div class="row">
+
+        <div class="user-info-card col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="form-group row">
+                  <label for="username" class="col-sm-4 col-form-label"><strong>Username :</strong></label>
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="username">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="num-rounds" class="col-sm-4 col-form-label"><strong>No. of rounds :</strong></label>
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="num-rounds">
+                  </div>
+                </div>
+              <button class="btn btn-lg btn-light btn-outline-dark" type="button">Next →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="instruction-card col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h4><u>Instructions</u></h4>
+              <p>The Hangman Game is a game where the player attempts to guess the letters of an unknown word. For each incorrect guess, a part of the hanged man will be drawn. The round ends when the full hanged man is drawn. Try your best to guess the word before the full hanged man is drawn!</p>
+              <ol>
+                <li>Input your username (for leaderboard purposes)</li>
+                <li>Choose your preferred number of rounds you wish to play for. (5, 10, 15)</li>
+                <li>Select "Next" and select your preferred theme for the rounds.</li>
+                <li>Select "Play" to enter the game. Do note that you are given a fixed time of 1 minute per round.</li>
+                <li>Input a single alphabet as your guess. If you require a hint, you may select the "Get Help" button. If you opt to give up and skip to the next word, you may select "Skip to next" button.</li>
+                <li>Should you opt to exit the game, you may select the "Exit Game" button.</li>
+                <li>All the best!</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+</body>
+<footer>
+    <table>
+        <tr>
+            <td> <a href="">About Us</a></td>
+            <td>|</td>
+            <td> <a href="">Feedback</a></td>
+        </tr>
+    </table>
+</footer>
+</html>
