@@ -13,7 +13,7 @@ const vegetables = ['tomato','potato'];
 let wordArr;
 let guessedArr ;
 let tries = 6;
-
+let mistakes = 0;
 function generateWord(x){
     let chosen ;
     switch(x){
@@ -43,11 +43,12 @@ function generateWord(x){
 }
 
 function updateHangMan(){
-    let mistakes = 6-tries;
     document.getElementById('hangmanPic').src = 'Img'+mistakes + '.png';
 
-   
+}
 
+function updateMistakes() {
+    document.getElementById('mistakes').innerHTML = mistakes;
 }
 
 function getDash(){
@@ -85,7 +86,7 @@ function generateButtons(){
 }
 
 function handleGuess(letter){
-    if(tries!=0){
+    if(mistakes!=6){
 
         document.getElementById(letter).setAttribute('disabled', true);
 
@@ -101,9 +102,11 @@ function handleGuess(letter){
 
         else{
             document.getElementById(letter).style.backgroundColor = "red";
-            tries--;
+            mistakes++;
+            updateMistakes();
             checkIfWon();
             updateHangMan();
+            
         }
 
     }
@@ -122,7 +125,7 @@ function checkIfWon(){
         noticeHtml = '<h1> You WON &#128513!!! </h1>';
         document.getElementById('guess').style.color = "green";
     }
-    else if(tries ==0){
+    else if(mistakes ==6){
         noticeHtml = '<h1> You LOST &#128532 </h1>';
         guessedArr = wordArr.map(letter => letter.toUpperCase());
         printDash();
@@ -143,10 +146,15 @@ function reset(){
     generateWord(z);
     getDash();
     tries=6;
+    mistakes =0;
+    updateMistakes();
     updateHangMan();
 
 }
 
+document.getElementById('maxWrong').innerHTML = tries;
+
 generateButtons();
 getDash();
 updateHangMan();
+
