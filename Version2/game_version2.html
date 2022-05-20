@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="logic.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+</head>
+<body>
+  <section class="top-section" id="title">
+      <div class="big-heading">
+          <h1 class="hangmantitle"> HANGMAN <img class="animated-gif-header" src="https://c.tenor.com/F5NRBCYyX9IAAAAM/pepe-the-frog-hang-man.gif" alt="img not shown"> </h1>
+      </div>
+  </section>
+
+  <section>
+    <button class="btn btn-lg btn-light btn-outline-dark" type="button" id="return2" onClick = "location.href = 'themes.html'">Return ←</button>
+  </section>
+
+  <section class="bottom-section" id="features">
+    <div class="row">
+      <div class="hangman-drawing col-lg-6">
+        <!-- Add the hangman drawing here -->
+        <img id='hangmanPic' src="0.png" alt="" >
+      </div>
+
+      <div class="user-interact col-lg-6">
+
+        <!-- Letter dashes -->
+        <div class="guessed-word">
+          <h1 class="guessed-char"> <div id = 'guess' class ="word-div"></div></h1>
+        </div>
+        <div id = 'notice' class = "notice-div" ></div>
+        <div id = "reset_btn"><button onClick = "reset()">Reset</button></div>
+        
+
+        <!-- keyboard -->
+        <div class="keyboard">
+          <div class = "letter-div", id="letter"></div>
+          
+          
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+
+</body>
+<footer>
+    <table>
+        <tr>
+            <td> <a href="">About Us</a></td>
+            <td>|</td>
+            <td> <a href="">Feedback</a></td>
+        </tr>
+    </table>
+</footer>
+</html>
+
