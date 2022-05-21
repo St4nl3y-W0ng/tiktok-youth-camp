@@ -8,11 +8,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="top-section" id="title">
         <div class="big-heading">
-            <h1 class="hangmantitle"> HANGMAN <img class="animated-gif-header" src="https://c.tenor.com/F5NRBCYyX9IAAAAM/pepe-the-frog-hang-man.gif" alt="img not shown"> </h1>
+            <h1 class="hangmantitle"> <img class="animated-gif-header" src="https://c.tenor.com/F5NRBCYyX9IAAAAM/pepe-the-frog-hang-man.gif" alt="img not shown"> HANGMAN </h1> 
         </div>
     </section>
 
@@ -23,12 +28,6 @@
           <div class="card">
             <div class="card-body">
               <form>
-                <div class="form-group row">
-                  <label for="username" class="col-sm-4 col-form-label"><strong>Username :</strong></label>
-                  <div class="col-sm-6">
-                    <input type="text" class="form-control" id="username">
-                  </div>
-                </div>
                 <div class="form-group row">
                   <label for="num-rounds" class="col-sm-4 col-form-label"><strong>No. of rounds :</strong></label>
                   <div class="col-sm-6">
@@ -45,15 +44,22 @@
             <div class="card-body">
               <h4><u>Instructions</u></h4>
               <p>The Hangman Game is a game where the player attempts to guess the letters of an unknown word. For each incorrect guess, a part of the hanged man will be drawn. The round ends when the full hanged man is drawn. Try your best to guess the word before the full hanged man is drawn!</p>
+              <span id="more">
+              
               <ol>
                 <li>Input your username (for leaderboard purposes)</li>
                 <li>Choose your preferred number of rounds you wish to play for. (5, 10, 15)</li>
-                <li>Select "Next" and select your preferred theme for the rounds.</li>
-                <li>Select "Play" to enter the game. Do note that you are given a fixed time of 1 minute per round.</li>
-                <li>Input a single alphabet as your guess. If you require a hint, you may select the "Get Help" button. If you opt to give up and skip to the next word, you may select "Skip to next" button.</li>
-                <li>Should you opt to exit the game, you may select the "Exit Game" button.</li>
+                <li>Select <span id="next">"Next→"</span> and select your preferred theme for the rounds. Do note that you are given a fixed time of 1 minute per round.</li>
+                <li>Input a single alphabet as your guess. 
+                  <br>If you require a hint, you may select the <span id="help">"Get Help"</span> button. 
+                  <br> If you opt to give up and skip to the next word, you may select <br><span id="skip">"Skip to next"</span> button.</li>
+                <li>Should you opt to exit the game, you may select the <span id="exit">"Exit Game"</span> button.</li>
                 <li>All the best!</li>
+
               </ol>
+            </span>
+            <button onclick="showMore()" id="myBtn">For more instructions</button>
+            
             </div>
           </div>
         </div>
