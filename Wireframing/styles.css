@@ -1,11 +1,9 @@
 /* GENERAL CSS THEMES */
 body {
-    background-color: #F1EDD1;
+    background-color:gainsboro;
     margin: 0px;
 }
-h4 {
-  text-align: center;
-}
+
 img.animated-gif-header{
     width: 90px;
     height: 80px;
@@ -13,30 +11,41 @@ img.animated-gif-header{
 .hangmantitle {
     font-size: 100px;
     font-weight: 200;
-    color: brown;
+    color: black;
     margin: 0px ;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
 }
 .top-section {
-    background-color: #eae0a0;
+    background-color: white;
     color: black;
 
 }
 .bottom-section {
-    background-color: #f1edd1;
+    background-color: gainsboro;
 }
 
 /* HOME PAGE */
 .user-info-card {
   text-align: center;
-  margin-top: 8%;
+  margin-top: 2%;
 }
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.form-group{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
 .card {
-  background-color: #fed8b1;
-  margin: 5%;
-  border-radius: 7%;
+  background-color: #bdab9c;
+  margin: 5% 5% 5% 5%;
+  border-radius: 0%;
 }
 .btn {
   margin-top: 4%;
@@ -45,15 +54,45 @@ img.animated-gif-header{
   padding-left: 2%;
 }
 
+#next{
+  padding: 1px; 
+  border: 2px solid black;
+  border-radius: 10%;
+  background: lightgrey;
+}
+
+#help{
+  padding: 1px; 
+  border: 2px solid orange;
+  background: orange;
+}
+
+#skip{
+  padding: 1px; 
+  border: 2px solid rgb(23, 131, 255);
+  background: rgb(23, 131, 255);
+  color: white;
+}
+
+#exit{
+  padding: 1px; 
+  border: 2px solid red;
+  background: red;
+  color: white;
+}
+
+#more {display: none;}
+
 /* THEMES PAGE */
 .choose-a-theme {
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
-    color: #A86E4C;
-    font-family: fantasy;
+    color: black;
+    font-family: 'Koulen', cursive;
     margin: 8px 3px 0px 3px;
     padding:8px 3px 0px 3px;
 }
+
 hr {
     position: relative;
     top: 0px;
@@ -62,7 +101,7 @@ hr {
     background: #AA9F6F;
     margin-bottom: 50px;
 }
-.btn-success {
+.btn-light {
   margin: 3%;
   border-radius: 10%;
 }
