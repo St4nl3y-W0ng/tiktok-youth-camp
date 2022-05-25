@@ -1,0 +1,138 @@
+/* GENERAL CSS THEMES */
+body {
+    background-color:gainsboro;
+    margin: 0px;
+}
+
+img.animated-gif-header{
+    width: 90px;
+    height: 80px;
+}
+.hangmantitle {
+    font-size: 100px;
+    font-weight: 200;
+    color: black;
+    margin: 0px ;
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+.top-section {
+    background-color: white;
+    color: black;
+
+}
+.bottom-section {
+    background-color: gainsboro;
+}
+
+/* HOME PAGE */
+.user-info-card {
+  text-align: center;
+  margin-top: 2%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.form-group{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.card {
+  background-color: #bdab9c;
+  margin: 5% 5% 5% 5%;
+  border-radius: 0%;
+}
+.btn {
+  margin-top: 4%;
+}
+.form-group {
+  padding-left: 2%;
+}
+
+#next{
+  padding: 1px; 
+  border: 2px solid black;
+  border-radius: 10%;
+  background: lightgrey;
+}
+
+#help{
+  padding: 1px; 
+  border: 2px solid orange;
+  background: orange;
+}
+
+#skip{
+  padding: 1px; 
+  border: 2px solid rgb(23, 131, 255);
+  background: rgb(23, 131, 255);
+  color: white;
+}
+
+#exit{
+  padding: 1px; 
+  border: 2px solid red;
+  background: red;
+  color: white;
+}
+
+#more {display: none;}
+
+/* THEMES PAGE */
+.choose-a-theme {
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    font-family: 'Koulen', cursive;
+    margin: 8px 3px 0px 3px;
+    padding:8px 3px 0px 3px;
+}
+
+/*hr {
+    position: relative;
+    top: 0px;
+    border: none;
+    height: 5px;
+    background: #AA9F6F;
+    margin-bottom: 50px;
+}*/
+
+.btn-light {
+  margin: 3%;
+  border-radius: 10%;
+}
+
+/* GAME PAGE */
+.user-interact {
+  text-align: center;
+  border-left: solid;
+}
+.guessed-word {
+  margin-top: 3%;
+}
+.guessed-char {
+  display: inline;
+  font-size: 50px;
+}
+.keyboard {
+  margin-top: 10%;
+}
+.btn-circle.btn-xl {
+      width: 65px;
+      height: 65px;
+      border-radius: 65px;
+      margin: 1%;
+      font-size: 20px;
+      text-align: center;
+    }
+#return1 {
+    color: red;
+}
+#return2 {
+    color: red;
+}
