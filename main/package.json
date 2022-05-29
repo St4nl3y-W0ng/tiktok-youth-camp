@@ -1,8 +1,8 @@
 {
-  "homepage": "https://st4nl3y-w0ng.github.io/tiktok-youth-camp/",
   "name": "hangman-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://st4nl3y-w0ng.github.io/tiktok-youth-camp/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
