@@ -6,11 +6,9 @@ function Choice(props) {
     }
 
     return (
-
-    <div className="choice">
-        <button onClick={handleClick}>{props.title}</button>
-    </div>
-
+        <div className="choice col-md-3">
+            <button className="btn-light" onClick={handleClick}>{props.title}</button>
+        </div>
     );
 }
 
