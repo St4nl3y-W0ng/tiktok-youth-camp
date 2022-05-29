@@ -1,21 +1,13 @@
 {
   "files": {
-    "main.js": "/tiktok-youth-camp/static/js/main.9670edab.chunk.js",
-    "main.js.map": "/tiktok-youth-camp/static/js/main.9670edab.chunk.js.map",
-    "runtime-main.js": "/tiktok-youth-camp/static/js/runtime-main.1df7f083.js",
-    "runtime-main.js.map": "/tiktok-youth-camp/static/js/runtime-main.1df7f083.js.map",
-    "static/css/2.7020638d.chunk.css": "/tiktok-youth-camp/static/css/2.7020638d.chunk.css",
-    "static/js/2.692e73d4.chunk.js": "/tiktok-youth-camp/static/js/2.692e73d4.chunk.js",
-    "static/js/2.692e73d4.chunk.js.map": "/tiktok-youth-camp/static/js/2.692e73d4.chunk.js.map",
+    "main.css": "/tiktok-youth-camp/static/css/main.d2f3c045.css",
+    "main.js": "/tiktok-youth-camp/static/js/main.2d4dd138.js",
     "index.html": "/tiktok-youth-camp/index.html",
-    "precache-manifest.9f0e6e52843171da48973611dc27a284.js": "/tiktok-youth-camp/precache-manifest.9f0e6e52843171da48973611dc27a284.js",
-    "service-worker.js": "/tiktok-youth-camp/service-worker.js",
-    "static/css/2.7020638d.chunk.css.map": "/tiktok-youth-camp/static/css/2.7020638d.chunk.css.map"
+    "main.d2f3c045.css.map": "/tiktok-youth-camp/static/css/main.d2f3c045.css.map",
+    "main.2d4dd138.js.map": "/tiktok-youth-camp/static/js/main.2d4dd138.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.1df7f083.js",
-    "static/css/2.7020638d.chunk.css",
-    "static/js/2.692e73d4.chunk.js",
-    "static/js/main.9670edab.chunk.js"
+    "static/css/main.d2f3c045.css",
+    "static/js/main.2d4dd138.js"
   ]
 }
