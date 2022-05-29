@@ -6,6 +6,7 @@ import Login from "./login/Login";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Game from "./game/Game";
 
+
 function App() {
     return (
         <Router>
@@ -13,13 +14,6 @@ function App() {
                 <Header />
                 <div className="content">
                     <Routes>
-                        {/* <Route path="/" element={<Login />}>
-                            <Route index element={<Login />} />
-                            <Route path="choose" element={<Choose />}>
-                                <Route index element={<Choose />} />
-                                <Route path="game" element={<Game />} />
-                            </Route>
-                        </Route> */}
                         <Route path="/" element={<Login />} />
                         <Route path="choose" element={<Choose />} />
                         <Route path="game" element={<Game />} />

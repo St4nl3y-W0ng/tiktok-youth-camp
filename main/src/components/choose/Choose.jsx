@@ -12,12 +12,15 @@ function Choose(props) {
         {
             themes.map((theme, index) => {
                 return (
+
                     <Choice
                         key={index}
                         id={index}
                         title={theme.title}
                         onSelect={selectTheme}
-                    />);
+                    />
+
+                );
             })
         }
     </div>);
